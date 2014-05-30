@@ -5,7 +5,6 @@ author:
 build_requires:
   AnyEvent::Gearman: '0'
   Exporter: '0'
-  POSIX: '0'
   Scalar::Util: '0'
   Test::More: '0'
   lib: '0'
@@ -20,14 +19,15 @@ meta-spec:
 name: AnyEvent-Gearman-WorkerPool
 requires:
   AnyEvent: '0'
-  AnyEvent::HTTPD: '0'
+  AnyEvent::Gearman::Client: '0'
+  AnyEvent::Gearman::Worker: '0'
+  AnyEvent::Gearman::Worker::RetryConnection: '0'
   Data::Dumper: '0'
   Gearman::Server: '0'
-  Gearman::Worker: '0'
-  LWP::Simple: '0'
   Log::Log4perl: '0'
   Moose: '0'
+  Storable: '0'
 resources:
   homepage: https://github.com/sng2c/Gearman-SlotManager
   repository: git://github.com/sng2c/Gearman-SlotManager.git
-version: '0.4'
+version: '1.0'

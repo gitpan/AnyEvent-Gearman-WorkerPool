@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution AnyEvent-Gearman-WorkerPool,
-version 0.4:
+version 1.0:
 
   Managing Worker's lifecycle with Slots
 
